@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>School Managment System</title>
+       
+		<link rel="stylesheet" href="task.css">
+    
+    </head>
+
+
+	<body>        
+       
+        <br><br><br>
+        <h4 class="h4" style=" text-align: center; font-size: larger; margin-bottom: -100PX;  ">Student Managment System</h4>
+
+
+		<div class="container center">
+	
+			<form>
+				<div class="from-control">
+					<label for="name"> Name</label>
+					<input type="text" id="name" placeholder="shahd ham"  />
+				</div>
+                <br>
+            
+				<div class="from-control">
+					<label for="idNumber">id</label>
+					<input type="number" id="idNumber" placeholder="11923976" style="margin-left: 25px; " />
+				</div>
+                <br>
+                
+				<div class="from-control">
+					<label for="GPA">gpa</label>
+					<input type="number" id="GPA" placeholder="2.69" style="margin-left: 15px; "/>
+				</div>
+                <br>
+               
+
+				<button id="submit" type="button">add</button>
+				<button id="list" type="button" >student list</button>
+				<button id="update" type="button" >update</button>
+				<button id="delete" type="button" >delete</button>
+			</form>
+		</div>
+
+        
+
+        ...........................................................................................................................................................................................................................................................................................................................................................................................................................................................................      
+
+        <table id="display" class="disnone" >
+            <div class="title disnone" id="title2" >
+                <h4 class="h4" style=" text-align: center;">show students</h4>
+            </div>
+
+            <tr >
+                <th  >
+                    Name
+                </th>
+                <th >
+                    ID
+                </th>
+                <th>
+                    GPA
+                </th>
+            </tr>
+	   </table>
+
+       ...........................................................................................................................................................................................................................................................................................................................................................................................................................................................................      
+        <div class="title disnone" id="iml" >
+            <h4 class="h4" style=" text-align: center;">update a student</h4>
+        </div>
+
+        <div class="container center disnone " id="UpdatForm" style="height: 230px; ">
+            <form>
+
+                <div class="from-control" >
+                    <label for="updateid"> id :</label>
+                    <input type="number" id="updateid" placeholder="11923976" style=" margin-left:45px;"/>
+                </div>
+                <br>
+                <div class="from-control" >
+                    <label for="newname"> Name : </label>
+                    <input type="text" id="newname" placeholder="shahd ham" style=" margin-left:20px;"/>
+                </div>
+                <br>
+                <div class="from-control" >
+                    <label for="newgdpa">  GPA :</label>
+                    <input type="number" id="newgdpa" placeholder="2.69" style=" margin-left:29px;"  />
+                </div>
+            </form>
+            
+            <button id="done">update</button>
+ 
+        </div>
+        ...........................................................................................................................................................................................................................................................................................................................................................................................................................................................................      
+
+        <div class="title disnone" id="imll" >
+            <h4 class="h4" style=" text-align: center;">delete</h4>
+        </div>
+
+        <div class="container center  disnone" id="deleteStudent" style="height: 150px;  ">
+
+            <form>
+                <div class="from-control" >
+                    <label for="delete" > id :</label>
+                    <input type="number" id="delete" placeholder="11923976"style=" margin-left:45px;" />
+                </div>
+            </form>
+
+            <button id="done">delete</button>
+ 
+        </div>
+
+	 <br>
+	 <br>
+	 <br>
+            
+        
+	</body>
+</html>
